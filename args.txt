@@ -1,0 +1,49 @@
+4 3 5 2 12 4 2
+0 1
+
+
+First Line
+======================
+| | | | |  | |
+| | | | |  | \
+| | | | |  \  \
+| | | | \   \  rnd = rounding method (see list below for appropriate rounding)
+| | | \  \   f = function (see list below for appropriate function)
+| | \  \  p = precision of output
+| \  \  ng = number of guard digits
+|  \  x2 = size of x2
+|   x1 = size of x1
+\ x0 = size of x0
+
+
+
+Second Line
+=====================
+| |
+| \
+\  \
+ \  stop_value = stop value for x
+   start_value = starting value for x
+
+
+
+List of functions available in sbtm.cc
+==========================================
+   0	1/x
+   1	sqrt(x)
+   2	1/sqrt(x)
+   3	sin(x)
+   4	cos(x)
+   5	atan(x)
+   6	log2
+   7	2^x
+   8	ln(x)
+   9	exp(x)
+   10	x^2
+
+
+List of Rounding Methods
+==========================
+   0	No Rounding
+   1	Rounding
+   2	Rounding of table and output
