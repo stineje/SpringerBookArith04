@@ -8,3 +8,14 @@ Enjoy!  Any questions, comments or suggestions, let me know.
 
 James E. Stine, Jr.<br>
 james.stine@okstate.edu<br>
+<PRE>
+@book{10.5555/983751,
+author = {Stine, James E.},
+title = {Digital Computer Arithmetic Datapath Design Using Verilog Hdl (International Series in Operations Research"and Management Science)},
+year = {2004},
+isbn = {1402077106},
+publisher = {Kluwer Academic Publishers},
+address = {USA}
+}
+</PRE>
+
